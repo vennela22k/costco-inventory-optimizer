@@ -1,4 +1,3 @@
-# costco-inventory-optimizer
 # Costco Inventory Optimization Project
 
 Realistic inventory model for 10 high-velocity Costco SKUs using 2024–2025 data.  
