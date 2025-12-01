@@ -15,15 +15,17 @@ Shows optimal order quantities, reorder points, and safety stock to minimize tot
 - Check "Dashboard" sheet for charts and recommendations
 
 ## Charts 
-![Cost Comparison] (
+![Cost Comparison] (chart2.png)
+![Recommended EOQ per Product] (chart1.png)
 
 ## Data Sources
 - Demand -> scaled to per warehouse
-- Prices checked on costco.com Nov 2025
+- Demand reverse-engineered from public renenue, earnings calls, and Costco prices (Dec 2025)
+- Prices checked on costco.com Dec 2025
 - Holding % and order costs evaluated based on industry standards
 
 ## Tools Uses
-- Microsoft Excel (EOQ, Safety Stock, Reorder Point, Solver-ready)
+- Microsoft Excel (EOQ, Safety Stock, Reorder Point)
 - Charts + conditional formatting
 
 ___________________________________________________________________________________
