@@ -1,26 +1,32 @@
 # Costco Inventory Optimization Project
+### Economic Order Quanity + Saftey Stock Model | Excel
 
-Realistic inventory model for 10 high-velocity Costco SKUs using 2024–2025 data.  
-Shows how much to order and when to reorder to minimize total inventory costs.
+Realistic EOQ model for 10 high-velocity Costco products usign 2025 data
+Shows optimal order quantities, reorder points, and safety stock to minimize total inventory cost.
 
 ## Key Results
-- Average cost reduction vs. naive policy: ****
-- Total annual savings across 10 products: **** (for one warehouse)
-- Highest impact item:  (% cost)
+- Total annual savings vs current policy: **$9.7 million** per warehouse
+- Average cost reduction: **-73.65%**
+- Biggest winners: Gasoline, Bananas, Bottled Water
 
 ## How to Use
 - Download `Costco_Inventory_Data.xlsx`
 - Go to the "Data" sheet → update demand or costs → everything auto-calculates
 - Check "Dashboard" sheet for charts and recommendations
 
-## Data Sources
+## Charts 
+![Cost Comparison] (
 
+## Data Sources
+- Demand -> scaled to per warehouse
+- Prices checked on costco.com Nov 2025
+- Holding % and order costs evaluated based on industry standards
 
 ## Tools Uses
 - Microsoft Excel (EOQ, Safety Stock, Reorder Point, Solver-ready)
 - Charts + conditional formatting
 
-
+___________________________________________________________________________________
 Built by Vennela Kottapally
 Rutgers University - Supply Chain Management '29
 Summer 2027 Internship Candidate
